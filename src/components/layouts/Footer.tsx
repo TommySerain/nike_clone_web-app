@@ -116,7 +116,7 @@ function Footer() {
                 <div className="col2 flex flex-col space-y-5">
                     <ul className='flex justify-end  text-[#7e7e7e] space-x-10 text-xs'>
                         <li className='hover:text-white'>Guides</li>
-                        <li className='hover:text-white'>Conditions d'utilisation</li>
+                        <li className='hover:text-white'>{`Conditions d'utilisation`}</li>
                         <li className='hover:text-white'>Conditions générales de vente</li>
                         <li className='hover:text-white'>Mentions légales</li>
                     </ul>
