@@ -48,7 +48,7 @@ function Footer() {
                             <li>Modes de paiement</li>
                         </Link>
                         <Link className='hover:text-white' href={`#`}>
-                            <li>Nous contacter</li>
+                            <li>Nous contacter </li>
                         </Link>
                         <Link className='hover:text-white' href={`#`}>
                             <li>Aide - Codes promo Nike</li>
