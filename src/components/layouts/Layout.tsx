@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './Header'
 import { Inter } from 'next/font/google'
 import AboutNav from './AboutNav'
-// import Footer from './Footer'
+import Footer from './Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,7 +34,7 @@ function Layout({children}:any) {
         {children}
     </main>
 
-{/* <Footer/> */}
+<Footer/>
 
 
     </div>
