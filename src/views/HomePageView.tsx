@@ -1,5 +1,5 @@
-// import { MagnifyingGlassIcon } from '@heroicons/react/16/solid'
-// import { HeartIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
+import { MagnifyingGlassIcon } from '@heroicons/react/16/solid'
+import { HeartIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import React from 'react'
 import AboutNav from '../components/layouts/AboutNav'
