@@ -19,7 +19,7 @@ function CartProduct({imageUrl='', name='', description='', price=0} :Props) {
             
                 <div className='w-full h-[400px] relative'>
                     {imageUrl && imageUrl.length > 0 ?
-                    <Image src={`/images/${imageUrl}`} alt='' fill className='object-cover'/>
+                    <Image src={`/Images/${imageUrl}`} alt='' fill className='object-cover'/>
                     :
                     <span>{`Pas d'image`}</span>
                     }
