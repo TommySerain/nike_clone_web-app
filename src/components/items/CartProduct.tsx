@@ -21,7 +21,7 @@ function CartProduct({imageUrl='', name='', description='', price=0} :Props) {
                     {imageUrl && imageUrl.length > 0 ?
                     <Image src={`/images/${imageUrl}`} alt='' fill className='object-cover'/>
                     :
-                    <span>Pas d'image</span>
+                    <span>{`Pas d'image`}</span>
                     }
                 </div>
                 <div className='flex flex-col space-y-2'>
