@@ -4,7 +4,7 @@ import Layout from '../components/layouts/Layout'
 function ProductsView() {
     return (
         <Layout>
-            Products
+            products
         </Layout>
     )
 }
